@@ -39,7 +39,7 @@ section {
 	font-size: 90%;
 }
 
-#integrantes li {
+section li {
 	font-size: 80%;
 	clear: right;
 	list-style: none;
@@ -51,7 +51,7 @@ section {
 	opacity: .7; 
 }
 
-#integrantes li:hover, a:hover {
+section li:hover, a:hover {
 	opacity: 1;
 }
 
