@@ -19,7 +19,7 @@ body {
 	text-align: center;
 	background-color: #f0f0ff;
 	border: 3px solid #f0d0f0;
-	opacity: 0.4;
+	opacity: 0.5;
 	width: 60%;
 	margin: auto;
 	font-size: 200%;
@@ -28,12 +28,6 @@ body {
 .transparent h1 {
 	margin: 2%;
 	color: #000000;
-}
-
-.transparent:hover, h1:hover {
-	background: blue;
-	color: white;
-	cursor: pointer;
 }
 
 h2 {
@@ -46,10 +40,21 @@ section {
 }
 
 #integrantes li {
-	list-style: cambodian;
+	font-size: 80%;
+	clear: right;
+	list-style: none;
+	margin-right: 70%;
+	border: 1px solid grey;
+	margin-top: 5px;
+	padding: 3px;
+	background-color: white;
+	opacity: .7; 
 }
 
+#integrantes li:hover, a:hover {
+	opacity: 1;
+}
 
 footer {
-
+	font-size: 50%;
 }
