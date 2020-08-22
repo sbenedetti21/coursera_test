@@ -1,0 +1,50 @@
+html {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+html:hover {
+	cursor: crosshair;
+}
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 120%;
+}
+
+.transparent {
+	text-align: center;
+	background-color: #f0f0ff;
+	border: 3px solid #f0d0f0;
+	opacity: 0.5;
+	width: 45%;
+	margin: auto;
+}
+
+.transparent h1 {
+	margin: 2%;
+	color: black;
+	
+}
+
+.transparent:hover, h1:hover {
+	background: blue;
+	color: white;
+	cursor: pointer;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1em;
+}
+
+#integrantes li {
+	list-style: cambodian;
+}
+
+footer {
+
+}
