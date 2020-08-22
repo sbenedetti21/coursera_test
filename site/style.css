@@ -20,14 +20,14 @@ body {
 	background-color: #f0f0ff;
 	border: 3px solid #f0d0f0;
 	opacity: 0.5;
-	width: 45%;
+	width: 60%;
 	margin: auto;
+	font-size: 200%;
 }
 
 .transparent h1 {
 	margin: 2%;
 	color: black;
-	
 }
 
 .transparent:hover, h1:hover {
@@ -38,7 +38,7 @@ body {
 
 h2 {
 	text-align: center;
-	font-size: 1em;
+	font-size: 160%;
 }
 
 #integrantes li {
