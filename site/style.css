@@ -19,7 +19,7 @@ body {
 	text-align: center;
 	background-color: #f0f0ff;
 	border: 3px solid #f0d0f0;
-	opacity: 0.5;
+	opacity: 0.4;
 	width: 60%;
 	margin: auto;
 	font-size: 200%;
@@ -27,7 +27,7 @@ body {
 
 .transparent h1 {
 	margin: 2%;
-	color: black;
+	color: #000000;
 }
 
 .transparent:hover, h1:hover {
@@ -41,9 +41,14 @@ h2 {
 	font-size: 160%;
 }
 
+section {
+	font-size: 90%;
+}
+
 #integrantes li {
 	list-style: cambodian;
 }
+
 
 footer {
 
